@@ -25,7 +25,7 @@ function handleEvent(event) {
   if (event.type === 'beacon' && event.beacon.type === 'enter') {
     const message = {
       type: 'text',
-      text: '📡 歡迎靠近淨顏美學～首次體驗送好禮！',
+      text: '📡 歡迎靠智能販賣機，今天來看看有啥新東西唷！',
     };
     return client.pushMessage(event.source.userId, message);
   }
