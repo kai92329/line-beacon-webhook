@@ -1,0 +1,13 @@
+{
+  "name": "line-beacon-webhook",
+  "version": "1.0.0",
+  "description": "LINE Beacon webhook handler for 推播訊息",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@line/bot-sdk": "^7.5.1"
+  }
+}
